@@ -1,0 +1,19 @@
+DROP TABLE IF EXISTS `user`;
+
+CREATE TABLE `user`
+(
+   id                      INT           NOT NULL AUTO_INCREMENT,
+   practice_id             INT,
+   firstname               VARCHAR(50),
+   lastname                VARCHAR(50),
+   classification          VARCHAR(50),
+   specialty               VARCHAR(50),
+   platform_registered_on  VARCHAR(25),
+   last_active_date        DATE,
+   PRIMARY KEY (id)
+)
+ENGINE=InnoDB;
+
+CREATE INDEX last_name_index
+   ON `user` (lastname ASC);
+

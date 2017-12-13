@@ -1,4 +1,4 @@
 # doximity
-Doximity data engineering interview challenge
+Data engineering interview challenge
 
-Python script to complete Doximity data engineering interview challenge
+Python script to complete data engineering interview challenge

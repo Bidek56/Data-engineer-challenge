@@ -1,0 +1,15 @@
+
+urllib
+json
+datetime
+requests
+logging
+
+# HTML parsing
+bs4
+
+# DataFrame
+pandas
+
+# MySQL connection library
+pymysql
